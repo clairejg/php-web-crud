@@ -220,7 +220,7 @@
 
     <div class="heroe">
 
-        <h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
+        <h1>Welcome to CodeIgniter COURSE <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
 
         <h2>The small framework with powerful features</h2>
 
@@ -232,17 +232,24 @@
 
 <section>
 
-    <h1>About this page</h1>
+        <!-- **Claire: begins -->
 
-    <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+    <a href="<?= site_url('auth/register') ?>">
+        <!-- href="routes" -->
+        <!-- href="controller/php" -->
+        <h3>Register
 
-    <p>If you would like to edit this page you will find it located at:</p>
+        </h3>
+    </a>
 
-    <pre><code>app/Views/welcome_message.php</code></pre>
+    <a href="<?= site_url('auth/home') ?>">
+        <h3>Log-In</h3>
+    </a>
+        <!-- **Claire : ends -->
 
-    <p>The corresponding controller for this page can be found at:</p>
+    
 
-    <pre><code>app/Controllers/Home.php</code></pre>
+  
 
 </section>
 
